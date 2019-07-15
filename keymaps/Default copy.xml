@@ -1,0 +1,171 @@
+<keymap version="1" name="Default copy" parent="Mac OS X 10.5+">
+  <action id="$Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="$LRU">
+    <keyboard-shortcut first-keystroke="meta alt p" />
+  </action>
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="meta close_bracket" />
+  </action>
+  <action id="ActivateRemoteHostToolWindow">
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
+  </action>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="meta quote" />
+  </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="meta alt left" />
+  </action>
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="shift alt g" second-keystroke="shift alt c" />
+  </action>
+  <action id="CloseAllEditors">
+    <keyboard-shortcut first-keystroke="shift meta w" />
+  </action>
+  <action id="CloseProject">
+    <keyboard-shortcut first-keystroke="meta alt w" />
+  </action>
+  <action id="CompareDirs" />
+  <action id="CompareJars" />
+  <action id="CompareTwoFiles" />
+  <action id="Console.Execute.Multiline">
+    <keyboard-shortcut first-keystroke="f9" />
+  </action>
+  <action id="Console.Open">
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
+  <action id="Console.TableResult.CloneRow" />
+  <action id="DatabaseView.CopyAction" />
+  <action id="DatabaseView.ShowDiff" />
+  <action id="Diff.UpdatedFiles" />
+  <action id="DomCollectionControl.Remove" />
+  <action id="DomElementsTreeView.DeleteElement" />
+  <action id="Editor LRU">
+    <keyboard-shortcut first-keystroke="meta alt p" />
+  </action>
+  <action id="EditorBackSpace">
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="shift meta k" />
+  </action>
+  <action id="EditorDeleteToLineEnd">
+    <keyboard-shortcut first-keystroke="shift meta delete" />
+  </action>
+  <action id="EditorDeleteToLineStart">
+    <keyboard-shortcut first-keystroke="shift meta back_space" />
+  </action>
+  <action id="EditorDeleteToWordEnd">
+    <keyboard-shortcut first-keystroke="meta delete" />
+  </action>
+  <action id="EditorDeleteToWordStart">
+    <keyboard-shortcut first-keystroke="meta back_space" />
+  </action>
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="shift meta d" />
+  </action>
+  <action id="EditorJoinLines">
+    <keyboard-shortcut first-keystroke="meta j" />
+  </action>
+  <action id="EditorSelectLine">
+    <keyboard-shortcut first-keystroke="meta l" />
+  </action>
+  <action id="EditorSplitLine" />
+  <action id="EditorStartNewLine">
+    <keyboard-shortcut first-keystroke="meta enter" />
+  </action>
+  <action id="EditorStartNewLineBefore">
+    <keyboard-shortcut first-keystroke="shift meta enter" />
+  </action>
+  <action id="FileChooser.GotoDesktop" />
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="meta alt right" />
+  </action>
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+  </action>
+  <action id="GotoRow" />
+  <action id="GotoSuperMethod" />
+  <action id="GotoTest" />
+  <action id="Graph.Delete" />
+  <action id="Images.Editor.ToggleGrid" />
+  <action id="Images.ShowThumbnails" />
+  <action id="Images.Thumbnails.UpFolder" />
+  <action id="InsertLiveTemplate">
+    <keyboard-shortcut first-keystroke="shift meta j" />
+  </action>
+  <action id="IntroduceConstant" />
+  <action id="IntroduceParameter" />
+  <action id="JumpToLastChange" />
+  <action id="NextDiff">
+    <keyboard-shortcut first-keystroke="meta j" />
+  </action>
+  <action id="PreviousDiff">
+    <keyboard-shortcut first-keystroke="meta k" />
+  </action>
+  <action id="PublishGroup.CompareLocalVsRemote">
+    <keyboard-shortcut first-keystroke="meta alt u" second-keystroke="meta alt i" />
+  </action>
+  <action id="PublishGroup.Download">
+    <keyboard-shortcut first-keystroke="meta alt u" second-keystroke="meta alt o" />
+  </action>
+  <action id="PublishGroup.Upload">
+    <keyboard-shortcut first-keystroke="meta alt u" second-keystroke="meta alt f" />
+  </action>
+  <action id="RecentChangedFiles">
+    <keyboard-shortcut first-keystroke="meta alt t" />
+  </action>
+  <action id="RecentChanges">
+    <keyboard-shortcut first-keystroke="shift alt t" />
+  </action>
+  <action id="RecentFiles">
+    <keyboard-shortcut first-keystroke="shift meta t" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="meta alt c" />
+  </action>
+  <action id="SafeDelete" />
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="meta d" />
+  </action>
+  <action id="SendEOF" />
+  <action id="ShowUmlDiagramPopup" />
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="shift alt 3" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="shift alt 2" />
+  </action>
+  <action id="SurroundWith" />
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="ctrl alt enter" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
+  </action>
+  <action id="Uml.ShowDiff" />
+  <action id="UnselectPreviousOccurrence">
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
+    <keyboard-shortcut first-keystroke="meta u" />
+  </action>
+  <action id="UnsplitAll">
+    <keyboard-shortcut first-keystroke="meta alt 0" />
+  </action>
+  <action id="Unwrap" />
+  <action id="UsageView.Exclude" />
+  <action id="Vcs.Push" />
+  <action id="hg4idea.QGotoFromPatches" />
+  <action id="openAssertEqualsDiff" />
+  <action id="tasks.switch" />
+  <action id="tasks.switch.toolbar" />
+</keymap>

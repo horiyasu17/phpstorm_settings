@@ -1,0 +1,14 @@
+<templateSet group="Zen HTML">
+  <template name="echo" value="&lt;?= $END$ ?&gt;" description="&lt;?= $END$; ?&gt;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="php" value="&lt;?php $END$?&gt;" description="&lt;?php $END$ ?&gt;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

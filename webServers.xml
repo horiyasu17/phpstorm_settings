@@ -1,0 +1,70 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a31be318-7391-4e15-b3ab-a4f58cb46af1" name="sakura" url="http://hori-works.xyz/">
+        <fileTransfer host="49.212.165.22" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="970444d8-822f-473c-a0fa-5b5f6ad27f58" name="wordpress" url="http://hori-works.xyz/wordpress">
+        <fileTransfer host="49.212.165.22" port="22" rootFolder="/var/www/html/wordpress/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="e281201b-548e-4242-8bd4-662bbb984d8d" name="sakura_webroot" url="http://hori-works.xyz/">
+        <fileTransfer host="49.212.165.22" port="22" rootFolder="/var/www/html/horiyasu17/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="097d1bef-6871-4697-8850-ec8918525235" name="html" url="http://hori-works.xyz/">
+        <fileTransfer host="49.212.165.22" port="22" rootFolder="/var/www/html/sample_php" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="13430651-8f2a-4cb0-82aa-4aa5d9767808" name="php_mysql" url="http://192.168.33.10">
+        <fileTransfer host="192.168.33.10" port="22" rootFolder="/var/www/html" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="298e8719-e834-4aa3-9dba-e0fb60fc7ebf" name="tenka" url="http://192.168.99.100">
+        <fileTransfer host="192.168.99.100" port="22" rootFolder="/var/www/html24/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="295a3190-0b46-4f3e-b7d5-a965f0b7ee8b" name="tenka (1)" url="http://192.168.99.100">
+        <fileTransfer host="192.168.99.100" port="22" rootFolder="/var/www/html24/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="89b72bb0-0efc-4616-910a-fab473c630b9" name="horiyasu17" url="http://hori-works.xyz/horiyasu17/">
+        <fileTransfer host="49.212.165.22" port="22" rootFolder="/var/www/html/horiyasu17/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
